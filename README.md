@@ -1,22 +1,28 @@
-# Nextra Docs Template
+# Nextra + Gtag Demo
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
+This is a demo site showing how to add google analytics to a [Nextra](https://nextra.site) website.
 
-[**Live Demo →**](https://nextra-docs-template.vercel.app)
+## Usage
 
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
+1. Fork this repo.
 
-## Quick Start
+2. Clone your forked copy.
 
-Click the button to clone this repository and deploy it on Vercel:
+3. Run `npm install` to install the predefined dependencies.
 
-[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
+4. Deploy the site to Vercel.
 
-## Local Development
+5. Create a Google Analytics 4 property for the site.
 
-First, run `pnpm i` to install the dependencies.
+6. Create a `.env.local` file in the project's root directory.
 
-Then, run `pnpm dev` to start the development server and visit localhost:3000.
+7. Add `NEXT_PUBLIC_GA_ID=G-xxxxxxxxxx` to the `.env.local` file. (**Note:** Please replace `G-xxxxxxxxxx` with your Google Analytics measurement id.)
+
+8. Add your Google Analytics measurement id to your Vercel environment variables.
+
+9. Once you've deployed all updates to Vercel, navigate to various pages of your live site.
+
+10. Verify that the gtag works from your site's Google Analytics account.
 
 ## License
 
